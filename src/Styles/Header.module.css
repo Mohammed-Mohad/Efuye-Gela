@@ -1,0 +1,117 @@
+.overlap {
+    height: 1125px;
+    left: -32px;
+    position: absolute;
+    top: -118px;
+    width: 1472px;
+  }
+  
+  .group {
+    background-color: #eeeeee;
+    box-shadow: 0px 12.54px 25.08px #d4d4d41a, 0px 46.58px 46.58px #d4d4d417, 0px 105.7px 62.7px #d4d4d40d,
+      0px 186.32px 75.24px #d4d4d403, 0px 292.02px 82.41px transparent;
+    height: 1440px;
+    left: 392px;
+    position: absolute;
+    top: -242px;
+    transform: rotate(-90deg);
+    width: 720px;
+  }
+  
+  .divider-component {
+    background-color: var(--neutral-100);
+    box-shadow: 0px 12px 24px #14132a0a, 0px -2px 4px #14132a05, 0px 3px 14px #4939ff08;
+    height: 108px;
+    left: 32px;
+    position: absolute;
+    top: 118px;
+    width: 1440px;
+  }
+  
+  .frame {
+    align-items: center;
+    background-color: #fb7f04ee;
+    border-radius: 7px;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    left: 1140px;
+    padding: 10px;
+    position: absolute;
+    top: 32px;
+    width: 203px;
+  }
+  
+  .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .div-wrapper {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 42px;
+    left: 104px;
+    position: absolute;
+    top: 32px;
+    width: 177px;
+  }
+  
+  .text-wrapper-3 {
+    color: #fb8815;
+    font-family: "Itim", Helvetica;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    line-height: normal;
+    margin-right: -23px;
+    margin-top: -1px;
+    position: relative;
+    width: 200px;
+  }
+  
+  .navbar {
+    align-items: center;
+    display: inline-flex;
+    gap: 43px;
+    left: 430px;
+    position: absolute;
+    top: 36px;
+  }
+  
+  .text-wrapper-4 {
+    color: #4d4d4d;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .text-wrapper-5 {
+    color: #4d4d4d;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  

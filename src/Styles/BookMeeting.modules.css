@@ -1,0 +1,31 @@
+.book-a-meeting-wrapper {
+    align-items: center;
+    background-color: #fb8815;
+    border-radius: 7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    left: 152px;
+    padding: 10px;
+    position: absolute;
+    top: 625px;
+    width: 248px;
+  }
+  
+  .cbb-fa-bb-wrapper {
+    height: 814px;
+    left: 742px;
+    position: absolute;
+    top: 0;
+    width: 696px;
+  }
+  
+  .cbb-fa-bb {
+    height: 560px;
+    left: 54px;
+    object-fit: cover;
+    position: absolute;
+    top: 253px;
+    width: 562px;
+  }
+  

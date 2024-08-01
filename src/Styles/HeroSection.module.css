@@ -1,0 +1,41 @@
+.rectangle {
+    -webkit-backdrop-filter: blur(20px) brightness(100%);
+    backdrop-filter: blur(20px) brightness(100%);
+    height: 845px;
+    left: 25px;
+    position: absolute;
+    top: 225px;
+    width: 1437px;
+  }
+  
+  .group-2 {
+    margin-top: 20px;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .text-wrapper-6,
+  .text-wrapper-7 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .text-wrapper-8,
+  .text-wrapper-9 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .rectangle-2 {
+    width: 100%;
+    height: auto;
+  }
+  
