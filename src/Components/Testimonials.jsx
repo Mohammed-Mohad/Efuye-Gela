@@ -2,12 +2,13 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="relative flex flex-col items-center mb-40 px-[20px]"> {/* Negative margin to reduce space */}
+    <div className="flex flex-col items-center mb-0 px-[20px] mt-20">
+      {" "}
+      {/* Negative margin to reduce space */}
       {/* Text Section */}
-      <div className="text-[#263238] font-sans text-[64px] font-bold leading-[44px] tracking-normal text-center">
+      <div className="text-[#263238] font-['Inter'] text-4xl font-bold leading-[44px] tracking-normal text-center">
         Testimonials
       </div>
-
       {/* Testimonials Cards */}
       <div className="flex flex-wrap justify-center gap-6 mt-[80px]">
         {/* Card 1 */}

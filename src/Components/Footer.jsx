@@ -2,16 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-[280.67px] px-[165px] py-16 bg-[#263238] justify-start items-start gap-[125px] inline-flex">
+    <div className="h-[280.67px] px-[165px] py-16 bg-[#263238] justify-start items-start gap-[125px] inline-flex mt-20">
       <div className="flex-col justify-end items-start gap-10 inline-flex">
         <div className="self-stretch flex-col justify-start items-center gap-2 inline-flex">
           <div className="w-[350px] text-[#f5f7f9] text-sm font-normal font-['Inter'] leading-tight">
             <div className="w-[276px] h-[64.08px] relative">
-              <div className="left-0 top-[16.08px] absolute text-[#fb8815] text-[40.19px] font-normal font-['Itim']">
+              <div className="left-0 top-[16.08px] absolute text-[#fb8815] text-[40.19px] font-normal font-['Itim'] mt-[-10px]">
                 EFUYEGELA
               </div>
               <img
-                className="w-[78.38px] h-[58.95px] left-[197.62px] top-[-0px] absolute"
+                className="w-[78.38px] h-[58.95px] left-[197.62px] top-[-0px] absolute mt-[-10px]"
                 src="../src/assets/Images/EfuyeLogo.png"
               />
             </div>
@@ -21,18 +21,10 @@ const Footer = () => {
             All rights reserved
           </div>
         </div>
-        <div className="self-stretch justify-start items-start gap-4 inline-flex">
+        <div className="self-stretch justify-start items-start gap-2 inline-flex ml-[-10px]">
           <div className=" h-8 relative" />
-          <img
-            src="../src/assets/Images/Social Icons.svg"
-            alt="Instagram Logo"
-          />
-          {/* <div className="w-8 h-8 relative" /> */}
-          <img src="../src/assets/Images/Dribble.svg" alt="Instagram Logo" />
-          {/* <div className="w-8 h-8 relative" /> */}
-          <img src="../src/assets/Images/Youtube.svg" alt="Instagram Logo" />
-          {/* <div className="w-8 h-8 relative" /> */}
-          <img src="../src/assets/Images/twitter.svg" alt="Instagram Logo" />
+          <img src="../src/assets/Images/twitter.svg" alt="twitter Logo" />
+          <img src="../src/assets/Images/LinkedIn.png" alt="LinkedIn Logo" />
         </div>
       </div>
       <div className="justify-start items-start gap-[30px] flex">

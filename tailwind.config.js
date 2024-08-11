@@ -30,8 +30,10 @@ module.exports = {
       },
       boxShadow: {
         custom:
-          "0px 12.54px 25.08px #d4d4d41a, 0px 46.58px 46.58px #d4d4d417, 0px 105.7px 62.7px #d4d4d40d, 0px 186.32px 75.24px #d4d4d403, 0px 292.02px 82.41px transparent",
+          "0px 4px 6px rgba(212, 212, 212, 0.15), 0px 8px 16px rgba(212, 212, 212, 0.10)",
       },
+      
+      
       transform: {
         "-90": "rotate(-90deg)",
       },

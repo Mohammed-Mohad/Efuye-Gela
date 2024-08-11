@@ -1,51 +1,46 @@
-// src/components/BookMeeting.jsx
 import React from "react";
 
 const HeroSection = () => {
   return (
-    <div>
-      <div className="absolute top-[200px] left-[25px] h-[745px] w-[1437px] backdrop-blur-[20px] backdrop-brightness-[100%]" />
-      <div className="absolute top-[200px] left-[25px] h-[745px] w-[1437px] backdrop-blur-[20px] backdrop-brightness-[100%]" />
-      <div className="absolute top-[480px] left-[142px] flex items-center justify-center gap-[10px] bg-[#fb8815] rounded-[7px] p-[10px] w-[248px] text-white font-[inter] font-bold text-xl ">
-        Book a meeting
-      </div>
-      <div className="absolute h-[270px] left-[88px] top-[322px] w-[596px]">
-        <img
-          className="absolute h-[91px] left-[-32984px] top-[-11930px] w-[293px]"
-          alt="Rectangle"
-          src="../src/assets/Images/mt.png"
-        />
-        <p className="absolute text-[#4d4d4d] font-inter text-[20px] font-medium left-[56px] top-[-10px] w-[538px] tracking-tight leading-normal">
-          Efuyegela is a solutions company that employs a variety of resources,
-          tools, and frameworks to design and deliver dynamic high-impact
-          solutions that cater to specific ecosystems and audiences.
-        </p>
-      </div>
-      <div className="absolute top-[-155.46px] left-[742px] h-[714px] w-[696px]">
-        <img
-          src="../src/assets/Images/mt.png"
-          alt="main image"
-          className="absolute h-[560px] w-[562px] left-[54px] top-[253px] object-cover"
-        />
-      </div>
+    <div className="shadow-custom transform-rotate-[-90deg] bg-[#eeeeee]">
+      <section className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center ">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mt-[-150px]">
+          <div className="flex flex-col">
+            <div className="flex items-center ">
+              <div className=" z-10 text-[#fb8815] font-itim text-6xl font-normal  tracking-[-1.2px] leading-normal  whitespace-nowrap ">
+                EFUYEGELA
+              </div>
+              <img
+                className="object-cover w-[117px] ml-[-5px] mb-14"
+                alt="Rectangle"
+                src="../src/assets/Images/EfuyeLogo.png"
+              />
+            </div>
 
-      <div className="absolute text-[#ffa500] font-itim text-[60px] font-bold left-[148px] tracking-[-1.2px] leading-normal top-[180px] whitespace-nowrap">
-        EFUYEGELA
-      </div>
-      <div className="absolute text-[#fb8815] font-itim text-[60px] font-bold left-[148px] tracking-[-1.2px] leading-normal top-[180px] whitespace-nowrap">
-        EFUYEGELA
-      </div>
-      <p className="absolute text-[#ffa500] font-itim text-[30px] font-normal left-[148px] tracking-normal leading-normal top-[252px] w-[514px]">
-        SOME SEE A WEED , SOME SEE A SEED
-      </p>
-      <p className="absolute text-[#fb8815] font-itim text-[30px] font-normal left-[148px] tracking-normal leading-normal top-[252px] w-[514px]">
-        SOME SEE A WEED , SOME SEE A SEED
-      </p>
-      <img
-        className="absolute h-[88px] left-[460px] object-cover top-[164px] w-[117px]"
-        alt="Rectangle"
-        src="../src/assets/Images/EfuyeLogo.png"
-      />
+            <p className="text-[#ffa500] font-itim text-2xl font-medium tracking-normal leading-normal w-full mt-[-50px]">
+              SOME SEE A WEED , SOME SEE A SEED
+            </p>
+          </div>
+          <div className="flex flex-col justify-center ">
+            <p className=" text-[#4d4d4d] font-['Inter'] text-xl font-medium tracking-tight leading-normal py-8 my-2 ">
+              Efuyegela is a solutions company that employs a variety of
+              resources, tools, and frameworks to design and deliver dynamic
+              high-impact solutions that cater to specific ecosystems and
+              audiences.
+            </p>
+            <div className="flex items-center justify-center gap-[10px] bg-[#fb8815] rounded-[7px] p-[10px] w-[248px] text-white font-['Inter'] font-bold text-xl cursor-pointer">
+              Book a meeting
+            </div>
+          </div>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mt-[-80px]">
+          <img
+            src="../src/assets/Images/mt.png"
+            alt=""
+            className="object-cover rounded"
+          />
+        </div>
+      </section>
     </div>
   );
 };
